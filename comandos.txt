@@ -1,0 +1,40 @@
+Comandos linux curso javascript
+
+craer una carpeta: mkdir [nombrecarpeta]
+entrar a la carpeta: cd [nombrecarpeta]
+nueva instancia de git: git init
+listar elementos en una carpeta: ls
+
+Cree una nueva carpeta (directorio)
+$ mkdir <FOLDERNAME>
+Entrar a una carpeta (cambiar directorio)
+$ cd <FOLDERNAME>
+Listar todos los elementos en una carpeta
+$ ls
+Inicializar git en una carpeta
+$ git init
+
+NANO editor de texto-> el comando es nano [nombre del archivo texto]
+
+Comprobamos el estado de su repositorio para averiguar si hay cambios. Debajo en la terminal, usted debe estar dentro del directorio 'hola-mundo' que usted creo. Mira si hay cambios:
+
+$ git status
+
+Ahora agregue (add) el archivo que acaba de crear a los archivos que usted le gustaria confirmar (commit) (guardar) el cambio
+
+$ git add readme.txt
+
+Finalmente, confirme haciendo commit esos cambios al historial del repositorio con una descripcion corta sobre su actualizacion
+
+$ git commit -m "<Su mensaje del commit>"
+Verifique el estado del repositorio
+$ git status
+Mire los cambios de un archivo
+$ git diff
+Agregar los cambios de un archivo para confirmar (commit)
+$ git add <FILENAME>
+Agregar todos los archivos modificados
+$ git add .
+Para hacer commit (confirmar) de los cambios agregados con un mensaje corto describiendo los cambios
+$ git commit -m "<Su mensaje>"
+
